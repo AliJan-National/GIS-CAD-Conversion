@@ -50,8 +50,7 @@ Open your browser at `http://localhost:8501`.
 
 ## ☁️ Deploying to `share.streamlit.io` (Free Public Hosting)
 
-This repository includes pre-configured deployment files:
-- **`packages.txt`**: Installs Linux system packages (`gdal-bin`, `libgdal-dev`).
+Deployment is 100% self-contained via `requirements.txt` (modern Pyogrio wheels bundle GDAL/GEOS/PROJ automatically, so no system packages are required):
 - **`requirements.txt`**: Installs Python geospatial packages.
 
 ### Steps to Deploy:
