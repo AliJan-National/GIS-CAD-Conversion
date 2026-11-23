@@ -12,8 +12,9 @@ import geopandas as gpd
 import pandas as pd
 import streamlit as st
 
-from core.cad_engine import CAD_UNIT_SCALES, is_dwg2dxf_available
+from core.cad_engine import is_dwg2dxf_available
 from core.crs_utils import (
+    CAD_UNIT_SCALES,
     COMMON_CRS_PRESETS,
     format_crs_display,
     search_epsg,

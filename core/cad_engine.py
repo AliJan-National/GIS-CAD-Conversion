@@ -16,6 +16,8 @@ import geopandas as gpd
 import pandas as pd
 from shapely.geometry import LineString, Point, Polygon
 
+from core.crs_utils import CAD_UNIT_SCALES
+
 
 class CADConversionError(Exception):
     """Raised when CAD conversion fails."""
