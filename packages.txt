@@ -1,0 +1,5 @@
+# System dependencies for Streamlit Community Cloud (share.streamlit.io)
+# Debian/Ubuntu apt packages
+gdal-bin
+libgdal-dev
+libredwg-tools
