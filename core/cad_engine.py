@@ -43,10 +43,9 @@ def convert_dwg_to_dxf(dwg_path: str, output_dxf_path: Optional[str] = None) -> 
     """
     if not is_dwg2dxf_available():
         raise CADConversionError(
-            "DWG conversion utility 'dwg2dxf' (LibreDWG) was not found in system PATH.\n"
-            "- On Streamlit Cloud (share.streamlit.io), ensure 'libredwg-tools' is in packages.txt.\n"
-            "- For local use, please export your drawing as .DXF from AutoCAD / Civil 3D / QGIS, "
-            "or install LibreDWG."
+            "AutoCAD .DWG is a closed proprietary binary format and requires external translation.\n"
+            "👉 Please save or export your drawing as .DXF from AutoCAD, Civil 3D, or QGIS before uploading.\n"
+            ".DXF is 100% supported with full layer, curve, and entity extraction."
         )
 
     if not output_dxf_path:

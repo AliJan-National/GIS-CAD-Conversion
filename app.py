@@ -111,10 +111,10 @@ def render_sidebar():
         if dwg_ready:
             st.markdown("🟢 **DWG Engine**: LibreDWG (`dwg2dxf`) Active")
         else:
-            st.markdown("🟡 **DWG Engine**: `dwg2dxf` not found locally")
+            st.markdown("🟢 **CAD Engine**: Native DXF Engine Active")
             st.caption(
-                "On `share.streamlit.io`, LibreDWG is installed automatically via `packages.txt`. "
-                "For local Windows use, save CAD files as `.DXF`."
+                "AutoCAD `.DXF` files are 100% supported natively. For `.DWG` files, "
+                "please save as `.DXF` in AutoCAD or QGIS before uploading."
             )
 
         st.divider()

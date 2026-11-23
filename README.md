@@ -51,7 +51,7 @@ Open your browser at `http://localhost:8501`.
 ## ☁️ Deploying to `share.streamlit.io` (Free Public Hosting)
 
 This repository includes pre-configured deployment files:
-- **`packages.txt`**: Installs Linux system packages (`gdal-bin`, `libgdal-dev`, and `libredwg-tools` for DWG conversion).
+- **`packages.txt`**: Installs Linux system packages (`gdal-bin`, `libgdal-dev`).
 - **`requirements.txt`**: Installs Python geospatial packages.
 
 ### Steps to Deploy:
